@@ -1,0 +1,37 @@
+.world{
+	background-color: black;
+        padding: 70px;
+        border-radius: 7px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+	margin: 100px 0 0 0;
+        transition: padding 2s;
+        /* transition: background-color 2s 500ms; */
+}
+.world:hover{
+        padding: 85px;
+        background-color: #22101b;
+}
+h1{
+	background: linear-gradient(to right, #40E0D0, #FFB6C1);
+	padding: 10px;
+}
+body{
+	background-color: white;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#Button{
+	text-align: center;
+        margin: 10px;
+        border-radius: 7px;
+        padding: 7px;
+        background-color: #40E0D0;
+        color: black;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#Button:hover{
+        background-color: #FFB6C1;
+}
